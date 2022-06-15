@@ -41,6 +41,8 @@ class Form(tk.Tk):
         res_menu = tk.OptionMenu(self, self.resolution, "720x480", "960x540", "1280x720",
                                  "1366x768", "1600x900", "1920x1080", "2560x1440", "3200x1800",
                                  "3840x2160", "5120x2880", "7680x4320", "15630x8640")
+        for i in range(12):
+            res_menu.children['menu'].entryconfig(i,foreground='white')
         res_menu.configure(background=self.bg_color, font=self.font, foreground="white",
                            activebackground=self.bg_color)
         res_menu["menu"].configure(background=self.bg_color, font=self.font)

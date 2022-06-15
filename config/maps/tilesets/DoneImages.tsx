@@ -3,10 +3,6 @@
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="2">
   <image width="1100" height="1905" source="../../../resources/interface/common/base.png"/>
- </tile>
- <tile id="3">
-  <image width="1683" height="1245" source="../../../resources/interface/common/cuadro.png"/>
- </tile>
  <tile id="4">
   <image width="1114" height="338" source="../../../resources/interface/done/restart.png"/>
  </tile>

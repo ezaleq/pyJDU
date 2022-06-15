@@ -1,4 +1,5 @@
 import arcade
+import pyglet
 
 from src.resolution_tk import Form
 from src.views import TitleView
@@ -13,6 +14,10 @@ class Game:
                                          center_window=True,
                                          fullscreen=fullscreen,
                                          title="Jagger Dress Up")
+        # image = pyglet.image.load('resources\cursor.png')
+        # cursor = pyglet.window.ImageMouseCursor(image, 0, 0)
+        # self.game_window.set_mouse_cursor(cursor)
+        # self['cursor']='@cursor.cur'
 
     def run(self):
         arcade.set_background_color((255, 181, 253))
